@@ -15,6 +15,14 @@
             "changes": [
                 "Method has been removed"
             ]
+        },
+        {
+            "type": "org.gradle.api.publish.tasks.GenerateModuleMetadata",
+            "member": "Method org.gradle.api.publish.tasks.GenerateModuleMetadata.setEnabledIf(java.util.function.Supplier)",
+            "acceptation": "This is an internal API",
+            "changes": [
+                "METHOD_ADDED_TO_PUBLIC_CLASS"
+            ]
         }
     ]
 }
