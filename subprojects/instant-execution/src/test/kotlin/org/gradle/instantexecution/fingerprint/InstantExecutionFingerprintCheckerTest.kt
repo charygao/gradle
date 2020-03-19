@@ -69,7 +69,7 @@ class InstantExecutionFingerprintCheckerTest {
 
         // when:
         val readContext = recordWritingOf {
-            write(obtainedValue)
+            write(InstantExecutionCacheFingerprint.ValueSource(obtainedValue))
             write(null)
         }
 

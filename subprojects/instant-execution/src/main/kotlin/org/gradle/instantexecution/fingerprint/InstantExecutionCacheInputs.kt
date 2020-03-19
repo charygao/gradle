@@ -70,7 +70,7 @@ sealed class InstantExecutionCacheFingerprint {
 internal
 class InstantExecutionCacheInputs(
     private val virtualFileSystem: VirtualFileSystem,
-    val writeContext: DefaultWriteContext,
+    private val writeContext: DefaultWriteContext,
     val outputStream: ByteArrayOutputStream
 ) : ValueSourceProviderFactory.Listener, TaskInputsListener {
 
